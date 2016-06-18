@@ -1,29 +1,20 @@
-<<<<<<< HEAD
+#Mini Project 3
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+Mini project 3 is about building a Wiki about something I like. The requirements are: 
 
+* a static_controller with actions and corresponding views for an
 
-Welcome to your Rails project on Cloud9 IDE!
+> an about page (accessed as /about)
 
-To get started, just do the following:
+> an faq page (accessed as /faq)
 
-1. Run the project with the "Run Project" button in the menu bar on top of the IDE.
-2. Preview your new app by clicking on the URL that appears in the Run panel below (https://wdi-rails-juschan.c9users.io/).
+* a controller that represents the thing you like, e.g. cakes_controller. It should include
 
-Happy coding!
-The Cloud9 IDE team
+> an index page (also accessible as root ie. /) that lists atleast 5 different items e.g. cakes
+
+> At least 5 different show pages with different content displayed a specific item based upon the id provided in the url e.g. /cakes/5/ . This should reuse a single show.html.erb file
 
 
-## Support & Documentation
+Do not use Scaffold and do not create any models. This is an activity to focus on controllers, routes and views.
 
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
-=======
-# Mini_Project_3
-Mini Project 3
->>>>>>> 2aca129ff57be9fa6928ef747cfe44a035b16cb1
+ach controller should use a different layout.
