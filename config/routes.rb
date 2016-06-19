@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
   root 'static#about'
   
-  get 'static/about'
+  get '/about', to: "static#about"
 
-  get 'static/faq'
+  get '/faq', to: "static#faq"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
