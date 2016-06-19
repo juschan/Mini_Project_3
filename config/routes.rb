@@ -1,9 +1,24 @@
 Rails.application.routes.draw do
+
+  get 'hairstyle/index'
+
+  get 'hairstyle/afro'
+
+  get 'hairstyle/beehive'
+
+  get 'hairstyle/crewcut'
+
+  get 'hairstyle/dreadlocks'
+
+  get 'hairstyle/mohawk'
+
   root 'static#about'
   
   get '/about', to: "static#about"
 
   get '/faq', to: "static#faq"
+
+  get 'hairstyle/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
