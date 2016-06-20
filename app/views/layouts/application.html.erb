@@ -8,14 +8,7 @@
 </head>
 <body>
 
-<%= link_to 'Home', root_path %>
-<%= link_to 'Afro', '/hairstyle/afro' %>
-<%= link_to 'Beehive', '/hairstyle/beehive' %>
-<%= link_to 'Crewcut', '/hairstyle/crewcut' %>
-<%= link_to 'Dreadlocks', '/hairstyle/dreadlocks' %>
-<%= link_to 'Mohawk', '/hairstyle/mohawk' %>
-<%= link_to 'About', about_path %>
-<%= link_to 'Faq', faq_path %>
+<%= render "nav" %>
 <%= yield %>
 
 </body>
